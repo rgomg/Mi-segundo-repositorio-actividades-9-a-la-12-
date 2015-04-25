@@ -18,7 +18,10 @@ namespace Actividad9
 
 			boton.Clicked += (sender, e) => {
 
-				if(usuario.Text.Equals("usuario")){
+				if(usuario.Text.Equals("usuario"))
+				if(clave.Text.Equals("clave"))
+
+				{
 					Navigation.PushAsync(new Contenido());
 				}
 			};
